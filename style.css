@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    padding: 3em 1em;
+    font-size: 1.5em;
+    color: white;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: right;
+    font-weight: bold;
+}
+
+#movies {
+    flex-grow: 1;
+    display: flex;
+}
+
+#movies * {
+    flex-grow: 1;
+}
+
+#left, #right {
+    background-color: black;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#unseen, #header {
+    height: 6vh;
+    vertical-align: middle;
+    line-height: 6vh;
+    font-size: 4vh;
+    text-align: center;
+}
+
+#header {
+    background-color: #41e65c;
+    font-weight: bold;
+}
+
+#unseen {
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: #5a63df;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.mcu1 { background-image: url('img/1.jpg'); }
+.mcu2 { background-image: url('img/2.jpg'); }
+.mcu3 { background-image: url('img/3.jpg'); }
+.mcu4 { background-image: url('img/4.jpg'); }
+.mcu5 { background-image: url('img/5.jpg'); }
+.mcu6 { background-image: url('img/6.jpg'); }
+.mcu7 { background-image: url('img/7.jpg'); }
+.mcu8 { background-image: url('img/8.jpg'); }
+.mcu9 { background-image: url('img/9.jpg'); }
+.mcu10 { background-image: url('img/10.jpg'); }
+.mcu11 { background-image: url('img/11.jpg'); }
+.mcu12 { background-image: url('img/12.jpg'); }
+.mcu13 { background-image: url('img/13.jpg'); }
+.mcu14 { background-image: url('img/14.jpg'); }
+.mcu15 { background-image: url('img/15.jpg'); }
+.mcu16 { background-image: url('img/16.jpg'); }
+.mcu17 { background-image: url('img/17.jpg'); }
+.mcu18 { background-image: url('img/18.jpg'); }
+.mcu19 { background-image: url('img/19.jpg'); }
+.mcu20 { background-image: url('img/20.jpg'); }
+.mcu21 { background-image: url('img/21.jpg'); }
+.mcu22 { background-image: url('img/22.jpg'); }
