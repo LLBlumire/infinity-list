@@ -63,6 +63,7 @@ body {
     background-color: #5a63df;
     color: #ffffff;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .mcu1 { background-image: url('img/1.jpg'); }
